@@ -7,3 +7,8 @@ print(random.choice(['apple', 'banana', 'cherry'])) # randomly selects an item f
 print(random.sample(range(1, 100), 5)) # randomly selects 5 unique numbers from a range of 1 to 100
 random_number = random.randint(1, 100) # generates a random integer between 1 and 100
 print(random_number)
+#check if the random number is even or odd
+if random_number % 2 == 0:
+    print("Even Number")
+elif random_number % 2 != 0: #else or elif statement can be used to check if the number is odd
+    print("Odd Number")
